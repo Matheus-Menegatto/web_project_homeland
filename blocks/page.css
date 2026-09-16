@@ -1,0 +1,14 @@
+.page {
+  margin: 0;
+  width: 1280px;
+  background-color: #2a2c2f;
+  background-size: cover;
+  padding-bottom: 16px;
+}
+
+@media (max-width: 1024px) {
+  .page {
+    width: 100%;
+    min-height: 100vh;
+  }
+}
