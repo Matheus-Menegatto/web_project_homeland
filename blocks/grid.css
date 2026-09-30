@@ -3,7 +3,7 @@
   margin: 100px auto;
   max-width: 1184px;
   max-height: 442px;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   column-gap: 16px;
   row-gap: 16px;
@@ -17,7 +17,7 @@
   .photo__grid {
     max-width: 720px;
     max-height: 1108px;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -25,6 +25,6 @@
   .photo__grid {
     max-width: 288px;
     max-height: 1812px;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
   }
 }

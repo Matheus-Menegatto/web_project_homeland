@@ -12,9 +12,3 @@
     min-height: 100vh;
   }
 }
-
-@media (max-width: 544px) {
-  .page {
-    height: 200vh;
-  }
-}
